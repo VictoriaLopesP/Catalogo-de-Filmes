@@ -1,0 +1,66 @@
+.carousel-inner .row {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: center; 
+    transition: transform 0.5s ease; 
+  }
+  
+  .carousel-item-next,
+  .carousel-item-prev {
+    display: block; 
+  }
+  
+  .carousel-item-next {
+    transform: translateX(100%); 
+  }
+  
+  .carousel-item-prev {
+    transform: translateX(-100%); 
+  }
+  
+  .carousel-item.active {
+    transform: translateX(0); 
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  body {
+    background-color: #161616 !important;
+    color: #fff !important;
+  }
+  
+
+  .section-spacing {
+    margin: 100px 0; 
+}
+
+.title-spacing {
+    margin-bottom: 100px; 
+}
+
+
+.card {
+    width: 100%; 
+    height: 550px; 
+  }
+  
+  .card-img-top {
+    height: 400px;
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .card-body .btn {
+    margin-top: auto; 
+  }
+  
